@@ -1,34 +1,16 @@
-# Express MongoDB Docker Starter
+Test project to learn docker + mongodb with express
 
-Навчальний проект для демонстрації інтеграції Express.js додатку з MongoDB у Docker контейнерах.
+### Initialization
 
-## Технології
-
-- Node.js з Express.js
-- MongoDB
-- Docker і Docker Compose
-- Nodemon для автоматичного перезавантаження
-
-## Початок роботи
-
-### Передумови
-
-- Встановлений [Docker](https://www.docker.com/products/docker-desktop)
-- Встановлений [Docker Compose](https://docs.docker.com/compose/install/)
-
-### Встановлення
-
-1. Клонуйте репозиторій:
+1. Clone repo:
 ```bash
-git clone https://github.com/your-username/express-mongo-docker-starter.git
-cd express-mongo-docker-starter
+git clone https://github.com/hayndehayn/dockerized-express-app.git
+cd your-folder-name
 ```
 
-2. Запустіть контейнери:
+2. Init docker:
 ```bash
 docker-compose up --build
 ```
 
-3. Відкрийте браузер і перейдіть за адресою [http://localhost:3000](http://localhost:3000)
-
-## Структура проекту
+3. Then open [http://localhost:3000](http://localhost:3000)
